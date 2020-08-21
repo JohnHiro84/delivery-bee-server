@@ -1,0 +1,44 @@
+
+
+arr	pick_up_cords
+str	pick_up_address
+str 	pick_up_neighborhood
+
+arr	drop_off_cords
+str	drop_off_address
+str	drop_off_neighborhood
+
+	distance
+pic	cost
+	vehicle
+	user_id
+	helper_id
+	order_completed
+
+
+    user: req.body.user,
+    helper: req.body.helper,
+    pick_up_coords: req.body.pick_up_coords,
+    pick_up_address: req.body.pick_up_address,
+    pick_up_neighborhood: req.body.pick_up_neighborhood,
+    drop_off_coords: req.body.drop_off_coords,
+    drop_off_address: req.body.drop_off_address,
+    drop_off_neighborhood: req.body.drop_off_neighborhood,
+    distance: req.body.distance,
+    cost: req.body.cost,
+    vehicle: req.body.vehicle,
+    order_completed: req.body.order_completed,
+    final_confirmation: req.body.final_confirmation
+
+
+
+        "_id": "5daf9a60a843732ef4a77beb",
+  
+      "handle": "bluebird",
+       
+ "email": "bluebird@bird.com",
+
+
+
+marvin
+5d50b1a2bcde38fc1cb8a310
